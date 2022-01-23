@@ -61,19 +61,19 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                        This is a Mauritian Kreol version of the game Wordle made by Anshika Ramdhanee, M. Yusuf Neerooa and The Matounettes {' '}<br />
+                        This is a Mauritian Kreol version of the game Wordle made by Anshika Ramdhanee, M. Yusuf Neerooa and The Matounettes. {' '}<br />Game updates everyday at 0400 Mauritian time.<br />
                       <a
                         href="https://github.com/zwemo/zwemo.github.io"
                         className="underline font-bold"
                       >
-                        check out the code here
+                        Check out the code here
                       </a>{' '}
                       and{' '}
                       <a
                         href="https://www.powerlanguage.co.uk/wordle/"
                         className="underline font-bold"
                       >
-                        play the original here
+                        play the original here.
                       </a>
                     </p>
                   </div>
