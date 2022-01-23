@@ -97,10 +97,10 @@ function App() {
 
   return (
     <div className="py-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
-          <Alert message="Pena ase let" isOpen={isNotEnoughLetters} />
-          <Alert message="Pa’nn trouv mo-la" isOpen={isWordNotFoundAlertOpen} />
+      <Alert message="Pena ase let" isOpen={isNotEnoughLetters} />
+      <Alert message="Pa&apos;nn trouv mo-la" isOpen={isWordNotFoundAlertOpen} />
       <Alert
-        message={`To’nn perdi, mo-la ti ${solution}`}
+        message={`To&apos;nn perdi, mo-la ti ${solution}`}
         isOpen={isGameLost}
       />
       <Alert

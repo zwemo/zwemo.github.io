@@ -66,36 +66,36 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="W" status="correct" />
+                      <Cell value="S" status="correct" />
+                      <Cell value="O" />
+                      <Cell value="L" />
                       <Cell value="E" />
-                      <Cell value="A" />
-                      <Cell value="R" />
                       <Cell value="Y" />
                     </div>
                     <p className="text-sm text-gray-500">
-                        Let W trouv dan mo-la ek li bien-plase.
+                        Let S trouv dan mo-la ek li bien-plase.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="P" />
-                      <Cell value="I" />
-                      <Cell value="L" status="present" />
-                      <Cell value="O" />
-                      <Cell value="T" />
-                    </div>
-                    <p className="text-sm text-gray-500">
-                        Let L trouv dan mo-la me li mal-plase.
-                    </p>
-
-                    <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="V" />
-                      <Cell value="A" />
-                      <Cell value="G" />
-                      <Cell value="U" status="absent" />
+                      <Cell value="Z" />
+                      <Cell value="U" />
+                      <Cell value="R" status="present" />
+                      <Cell value="N" />
                       <Cell value="E" />
                     </div>
                     <p className="text-sm text-gray-500">
-                        Let U pa trouv dan mo-la dan okenn plas.
+                        Let R trouv dan mo-la me li mal-plase.
+                    </p>
+
+                    <div className="flex justify-center mb-1 mt-4">
+                      <Cell value="E" />
+                      <Cell value="D" />
+                      <Cell value="I" />
+                      <Cell value="K" status="absent" />
+                      <Cell value="E" />
+                    </div>
+                    <p className="text-sm text-gray-500">
+                        Let K pa trouv dan mo-la dan okenn plas.
                     </p>
                   </div>
                 </div>
