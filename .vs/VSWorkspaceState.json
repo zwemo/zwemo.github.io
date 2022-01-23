@@ -4,8 +4,9 @@
     "\\public",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\modals"
+    "\\src\\components\\modals",
+    "\\src\\constants"
   ],
-  "SelectedNode": "\\public\\index.html",
+  "SelectedNode": "\\src\\constants\\wordlist.ts",
   "PreviewInSolutionExplorer": false
 }
