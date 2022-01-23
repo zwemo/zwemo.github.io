@@ -1,6 +1,6 @@
 {
-  "name": "wordle",
-  "homepage": "https://zwemo.github.io/",
+  "name": "zwemo",
+  "homepage": "https://zwemo.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

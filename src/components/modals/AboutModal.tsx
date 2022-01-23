@@ -61,9 +61,9 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      This is an open source clone of the game Wordle -{' '}
+                        This is a Mauritian Kreol version of the game Wordle made by Anshika Ramdhanee, M. Yusuf Neerooa and The Matounettes {' '}<br />
                       <a
-                        href="https://github.com/hannahcode/wordle"
+                        href="https://github.com/zwemo/zwemo.github.io"
                         className="underline font-bold"
                       >
                         check out the code here
