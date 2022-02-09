@@ -1,8 +1,10 @@
+import Countdown from 'react-countdown'
 import { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { CheckIcon } from '@heroicons/react/outline'
 import { MiniGrid } from '../mini-grid/MiniGrid'
 import { shareStatus } from '../../lib/share'
+import { tomorrow } from '../../lib/words'
 import { XCircleIcon } from '@heroicons/react/outline'
 
 type Props = {
@@ -81,10 +83,19 @@ export const WinModal = ({
                   </div>
                 </div>
               </div>
-              <div className="mt-5 sm:mt-6">
+                          <div className="mt-5 sm:mt-6 columns-2">
+                <div>
+                    <h5>New word in</h5>
+                    <Countdown
+                        className="text-lg font-medium text-gray-900"
+                        date={tomorrow}
+                        daysInHours={true}
+                    />
+                </div>
+
                 <button
                   type="button"
-                  className="inline-flex justify-center w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
+                                  className="mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
                   onClick={() => {
                     shareStatus(guesses)
                     handleShare()
