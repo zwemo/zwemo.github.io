@@ -85,7 +85,7 @@ export const WinModal = ({
               </div>
                           <div className="mt-5 sm:mt-6 columns-2">
                 <div>
-                    <h5>Nuvo mo dan:</h5>
+                    <h5>Nouvo mo dan:</h5>
                     <Countdown
                         className="text-lg font-medium text-gray-900"
                         date={tomorrow}
